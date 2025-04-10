@@ -1,8 +1,8 @@
 header{
   display: flex;
   justify-content: space-between;
-  gap: 4rem;
-  margin-top: 2.3rem;
+  gap: 3rem;
+  margin-top: 2rem;
 }
 
 .header__work-status{
@@ -20,18 +20,19 @@ header{
 }
 
 .header__work-status-label{
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 700;
   white-space: nowrap;
 }
 
 .header__download-resume-btn{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
   text-align: center;
   color: rgb(5, 5, 5);
   background-color: var(--main-color);
   border-radius: 20px;
-  padding: 0.3rem;
+  padding: 0.4rem 1rem;
 }
 
 

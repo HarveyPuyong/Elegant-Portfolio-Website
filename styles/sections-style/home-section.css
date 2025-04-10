@@ -1,0 +1,41 @@
+.home-section{
+  padding-top: 180px;
+  margin-bottom: 5rem;
+}
+
+.home-section__main-skill{
+  color: var(--main-color);
+  font-size: 26px;
+  white-space: nowrap;
+  margin-bottom: 1rem;
+}
+
+.home-section__name{
+  color: var(--primary-color);
+  font-size: 64px;
+  line-height: 0.9em;
+  margin-bottom: 13rem;
+}
+
+.home-section__other-details-list.d-grid{
+  display: grid;
+  gap: 1.2rem;
+}
+
+.home-section__other-details-list .detail-item{
+  display: flex;
+  gap: 1rem;
+}
+
+.home-section__other-details-list .detail-item__icon{
+  --other-detail-icons-size: 23px;
+  
+  height: var(--other-detail-icons-size);
+  width: var(--other-detail-icons-size);
+}
+
+.home-section__other-details-list .detail-item__label{
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 500;
+}
