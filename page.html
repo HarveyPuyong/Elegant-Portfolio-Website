@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elegant Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/navigation.css">
   </head>
   <body>
     <div class="main-wrapper">
@@ -11,34 +15,43 @@
       <header>
         <div class="header__work-status">
           <div class="header__work-status-dot"></div>
-          <div class="header__work-status-label">Open to wsork</div>
+          <div class="header__work-status-label">Open to work</div>
         </div>
         <a class="header__download-resume-btn">Download Resume</a>
-        <div class="header__change-theme-btn">Change Theme</div>
+        <!-- <div class="header__change-theme-btn">Change Theme</div> -->
       </header>
 
-      <img src="images-and-icons/images/my-profile-pic.png" alt="" class="background-profile-pic">
+      <!-- background profile pic -->
+      <!-- <img class="background-profile-pic" src="images-and-icons/images/my-profile-pic.png" alt="profile-photo" > -->
 
       <!-- sections nav -->
       <nav class="section-nav">
-        <ul class="section-nav__list">
-          <li>
-            <a href="#" class="section-nav__link">Home</a>
-          </li>        
-          <li>
-            <a href="#about-section" class="section-nav__link">About</a>
-          </li>        
-          <li>
-            <a href="#projects-section" class="section-nav__link">Projects</a>
-          </li>        
-          <li>
-            <a href="#skills-tools-section" class="section-nav__link">Skills</a>
-          </li>        
-          <li>
-            <a href="#contact-section" class="section-nav__link">Contact</a>
-          </li>        
-        </ul>
+        <a class="section-nav__link" href="#">
+          <img class="section-nav__link-icon" src="images-and-icons/icons/home-nav-icon.png" alt="home-nav-icon">
+          <span class="section-nav__link-label">Home</span>
+        </a>
+        
+        <a class="section-nav__link" href="#about-section">
+          <img class="section-nav__link-icon" src="images-and-icons/icons/about-nav-icon.png" alt="about-nav-icon">
+          <span class="section-nav__link-label">About</span>
+        </a>
+        
+        <a class="section-nav__link" href="#projects-section">
+          <img class="section-nav__link-icon" src="images-and-icons/icons/project-nav-icon.png" alt="projects-nav-icon">
+          <span class="section-nav__link-label">Projects</span>
+        </a>
+        
+        <a class="section-nav__link" href="#skills-tools-section">
+          <img class="section-nav__link-icon" src="images-and-icons/icons/skills-nav-icon.png" alt="skills-nav-icon">
+          <span class="section-nav__link-label">Skills</span>
+        </a>
+        
+        <a class="section-nav__link" href="#contact-section">
+          <img class="section-nav__link-icon" src="images-and-icons/icons/contact-nav-icon.png" alt="contact-nav-icon">
+          <span class="section-nav__link-label">Contact</span>
+        </a>
       </nav>
+      
       
       <!-- sections wrapper -->
       <main class="sections-wraper">
