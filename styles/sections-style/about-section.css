@@ -1,0 +1,32 @@
+.about-section__paragraph{
+  line-height: 1.6em;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.about-section__education-and-certificates-heading{
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--main-color);
+  margin-bottom: 1.3rem;
+}
+
+.about-section__education-and-certificates-list{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding-left: var(--wrapper-padding);
+  border-left: 1px solid var(--main-color);
+}
+
+.about-section__education-and-certificates-list .education-and-certificates-item__label{
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.about-section__education-and-certificates-list .education-and-certificates-item__date{
+  color: var(--main-color);
+  font-weight: 300;
+}

@@ -40,3 +40,13 @@ body{
 /* .background-profile-pic{
   position: fixed;
 } */
+
+section{
+  margin-bottom: 7rem;
+}
+
+section .heading{
+  font-size: 48px;
+  color: var(--main-color);
+  margin-bottom: 2rem;
+}
