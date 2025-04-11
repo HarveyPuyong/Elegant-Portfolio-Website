@@ -1,0 +1,46 @@
+.skills-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 25px;
+  margin-bottom: 6rem;
+}
+
+.skills-list__skill{
+  font-size: 18px;
+  font-weight: 600;
+  padding-left: 0.1rem;
+}
+
+.skills-list__skill::marker{
+  color: var(--main-color);
+  font-size: 28px;
+}
+
+
+.tools-list.d-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3.9rem;
+}
+
+.tools-list__tool{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools-list__tool-icon{
+  --tool-icon-size: 64px;
+
+  height: var(--tool-icon-size);
+  width: var(--tool-icon-size);
+  border-radius: 10px;
+  margin-bottom: 1.2rem;
+}
+
+.tools-list__tool-label{
+  font-size: 14px;
+  font-weight: 700;
+}

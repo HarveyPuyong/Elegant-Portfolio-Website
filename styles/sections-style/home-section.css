@@ -1,5 +1,5 @@
 .home-section{
-  padding-top: 180px;
+  padding-top: 200px;
 }
 
 .home-section__main-skill{
@@ -13,7 +13,7 @@
   color: var(--primary-color);
   font-size: 64px;
   line-height: 0.9em;
-  margin-bottom: 13rem;
+  margin-bottom: 14rem;
 }
 
 .home-section__other-details-list.d-grid{

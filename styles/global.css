@@ -31,7 +31,7 @@ body{
 
 .main-wrapper{
   --wrapper-max-width: 1210px;
-  --wrapper-padding: 2.3rem;
+  --wrapper-padding: 2.4rem;
 
   width: min(var(--wrapper-max-width), 100% - var(--wrapper-padding));
   margin-inline: auto;
@@ -49,4 +49,6 @@ section .heading{
   font-size: 48px;
   color: var(--main-color);
   margin-bottom: 2rem;
+  text-align: left;
+  line-height: 1em;
 }
