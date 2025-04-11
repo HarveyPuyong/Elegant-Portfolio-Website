@@ -21,7 +21,7 @@
 .tools-list.d-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  row-gap: 3.9rem;
+  row-gap: 4.1rem;
 }
 
 .tools-list__tool{
