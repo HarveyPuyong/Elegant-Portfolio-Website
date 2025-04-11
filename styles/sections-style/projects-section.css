@@ -1,0 +1,50 @@
+.project-section__project-card-list.d-grid{
+  display: grid;
+  gap: 4rem;
+  border-left: 0.9px solid rgba(255, 255, 255, 0.224);
+  padding-left: 1.3rem;
+}
+
+.project-card{
+  --project-card-side-space: 1rem;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 10px;
+
+}
+
+.project-card__arrow-icon{
+  --project-arrow-size: 26px;
+
+  position: absolute;
+  right: 1rem;
+  top: 1.2rem;
+  height: var(--project-arrow-size);
+  width: var(--project-arrow-size);
+}
+
+.project-card__img{
+  border-radius: inherit;
+  height: 220px;
+  z-index: -1;
+  margin-bottom: 0.6rem;
+}
+
+.project-card__info{
+  padding-inline: 0.3rem;
+
+}
+
+.project-card__info-title{
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+
+.project-card__info-detail{
+  font-size: 14px;
+  opacity: 0.5;
+}

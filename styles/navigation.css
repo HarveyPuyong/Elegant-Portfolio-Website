@@ -12,6 +12,7 @@
   width: 312px;
   align-items: center;
   padding: 4px;
+  z-index: 999;
 }
 
 .section-nav__link{
