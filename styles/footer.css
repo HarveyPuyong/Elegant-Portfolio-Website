@@ -1,0 +1,29 @@
+footer{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.1rem;
+  left: 0;
+  right: 0;
+  background-color: black;
+}
+
+footer .socmed-list{
+  display: flex;
+  justify-content: center;
+  gap: 1.3rem;
+  list-style: none;
+}
+
+.socmed-list__social-icon{
+  --socmed-icons-size: 40px;
+
+  width: var(--socmed-icons-size);
+  height: var(--socmed-icons-size);
+}
+
+.footer__copy-right-txt{
+  text-align: center;
+  width: 100%;
+}
