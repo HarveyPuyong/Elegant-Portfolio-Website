@@ -6,7 +6,6 @@
   color: var(--main-color);
   font-size: 26px;
   white-space: nowrap;
-  margin-bottom: 1rem;
 }
 
 .home-section__name{
@@ -14,16 +13,18 @@
   font-size: 64px;
   line-height: 0.9em;
   margin-bottom: 14rem;
+  margin-top: 1rem;
 }
 
 .home-section__other-details-list.d-grid{
   display: grid;
-  gap: 1.2rem;
+  row-gap: 1.2rem;
 }
 
 .home-section__other-details-list .detail-item{
   display: flex;
-  gap: 1rem;
+  gap: 0.7rem;
+  align-items: center;
 }
 
 .home-section__other-details-list .detail-item__icon{
@@ -39,3 +40,14 @@
   font-weight: 500;
 }
 
+@media(width >= 650px){
+  .home-section__name{
+    margin-bottom: 5rem;
+  }
+
+  .home-section__other-details-list.d-grid{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    margin-bottom: 10rem;
+  }
+}

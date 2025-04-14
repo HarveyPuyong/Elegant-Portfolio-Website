@@ -42,7 +42,8 @@ body{
 } */
 
 section{
-  margin-bottom: 7rem;
+  margin-bottom: 8rem;
+  max-width: 600px;
 }
 
 section .heading{
@@ -51,4 +52,10 @@ section .heading{
   margin-bottom: 2rem;
   text-align: left;
   line-height: 1em;
+}
+
+@media(width >= 800px){
+  .main-wrapper{
+    --wrapper-padding: 15%;
+  }
 }
