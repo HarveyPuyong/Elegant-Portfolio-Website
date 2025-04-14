@@ -30,3 +30,10 @@
   color: var(--main-color);
   font-weight: 300;
 }
+
+
+@media(width >= 800px){
+  .about-section__education-and-certificates-list{
+    padding-left: 2.4rem;
+  }
+}

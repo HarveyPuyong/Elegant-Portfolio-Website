@@ -41,13 +41,17 @@
 }
 
 @media(width >= 650px){
+  .home-section{
+    padding-top: 180px;
+  }
+
   .home-section__name{
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 
   .home-section__other-details-list.d-grid{
     grid-template-columns: 1fr 1fr;
     column-gap: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 15rem;
   }
 }
