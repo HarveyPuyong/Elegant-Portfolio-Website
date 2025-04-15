@@ -30,7 +30,7 @@ body{
 
 
 .main-wrapper{
-  --wrapper-max-width: 1210px;
+  --wrapper-max-width: 1180px;
   --wrapper-padding: 2.4rem;
 
   width: min(var(--wrapper-max-width), 100% - var(--wrapper-padding));

@@ -12,7 +12,7 @@ header{
 }
 
 .header__work-status-dot{
- --dot-size: 6px;
+ --dot-size: 7px;
  width: var(--dot-size);
  height: var(--dot-size);
  background-color: rgb(2, 255, 39);

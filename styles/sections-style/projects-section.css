@@ -1,9 +1,10 @@
 .project-section__project-card-list.d-grid{
   display: grid;
-  gap: 4rem;
+  row-gap: 3.5rem;
   border-left: 0.9px solid rgba(255, 255, 255, 0.224);
   padding-left: 1.3rem;
   margin-left: 0.1rem;
+  margin-top: 2rem;
 }
 
 .project-card{
@@ -29,7 +30,7 @@
 
 .project-card__img{
   border-radius: inherit;
-  height: 220px;
+  height: clamp(220px, 70vw, 280px);
   z-index: -1;
   margin-bottom: 0.6rem;
 }
@@ -48,4 +49,12 @@
 .project-card__info-detail{
   font-size: 14px;
   opacity: 0.5;
+}
+
+
+@media(width >= 600px){
+  .project-section__project-card-list.d-grid{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.3rem;
+  }
 }
