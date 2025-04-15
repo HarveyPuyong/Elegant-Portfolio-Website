@@ -22,6 +22,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4rem;
+  justify-content: left;
 }
 
 .tools-list__tool{
@@ -43,4 +44,19 @@
 .tools-list__tool-label{
   font-size: 14px;
   font-weight: 700;
+}
+
+
+@media(width >= 600px){
+  .tools-list.d-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    row-gap: 3rem;
+    column-gap: 3rem;
+  }
+
+  .tools-list__tool{
+    width: fit-content;
+  }
 }
