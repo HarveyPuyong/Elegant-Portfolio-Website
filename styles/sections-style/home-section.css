@@ -4,13 +4,13 @@
 
 .home-section__main-skill{
   color: var(--main-color);
-  font-size: 26px;
+  font-size: 1.625rem;
   white-space: nowrap;
 }
 
 .home-section__name{
   color: var(--primary-color);
-  font-size: 64px;
+  font-size: 4rem;
   line-height: 0.9em;
   margin-bottom: 14rem;
   margin-top: 1rem;
@@ -36,11 +36,11 @@
 
 .home-section__other-details-list .detail-item__label{
   color: var(--primary-color);
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 500;
 }
 
-@media(width >= 650px){
+@media(width >= 40.625rem /* 650px */){
   .home-section{
     padding-top: 180px;
   }

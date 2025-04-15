@@ -47,14 +47,14 @@ section{
 }
 
 section .heading{
-  font-size: 48px;
+  font-size: 3rem;
   color: var(--main-color);
   margin-bottom: 2rem;
   text-align: left;
   line-height: 1em;
 }
 
-@media(width >= 800px){
+@media(width >= 50rem /* 800px */){
   .main-wrapper{
     --wrapper-padding: 15%;
   }

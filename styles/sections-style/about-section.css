@@ -5,7 +5,7 @@
 }
 
 .about-section__education-and-certificates-heading{
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 600;
   color: var(--main-color);
   margin-bottom: 1.3rem;
@@ -20,7 +20,7 @@
 }
 
 .about-section__education-and-certificates-list .education-and-certificates-item__label{
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--primary-color);
   font-weight: 600;
   margin-bottom: 0.3rem;
@@ -32,7 +32,7 @@
 }
 
 
-@media(width >= 800px){
+@media(width >= 50rem /* 800px */){
   .about-section__education-and-certificates-list{
     padding-left: 2.4rem;
   }

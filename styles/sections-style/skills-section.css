@@ -7,14 +7,14 @@
 }
 
 .skills-list__skill{
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   padding-left: 0.1rem;
 }
 
 .skills-list__skill::marker{
   color: var(--main-color);
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 
 
@@ -42,12 +42,12 @@
 }
 
 .tools-list__tool-label{
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
 
-@media(width >= 600px){
+@media(width >= 37.5rem /* 600px */){
   .tools-list.d-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

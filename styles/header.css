@@ -36,7 +36,7 @@ header{
 }
 
 
-@media(width > 363px){
+@media(width >= 22.6875rem /* 363px */){
   .header__download-resume-btn{
     padding: 0.8rem 1rem;
   }

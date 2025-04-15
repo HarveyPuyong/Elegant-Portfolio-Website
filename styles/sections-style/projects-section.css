@@ -41,18 +41,18 @@
 }
 
 .project-card__info-title{
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 800;
   margin-bottom: 0.3rem;
 }
 
 .project-card__info-detail{
-  font-size: 14px;
+  font-size: 0.875rem;
   opacity: 0.5;
 }
 
 
-@media(width >= 600px){
+@media(width >= 37.5rem /* 600px */){
   .project-section__project-card-list.d-grid{
     grid-template-columns: 1fr 1fr;
     column-gap: 1.3rem;

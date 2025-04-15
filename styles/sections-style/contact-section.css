@@ -23,7 +23,7 @@
 }
 
 
-@media(width >= 600px){
+@media(width >= 37.5rem /* 600px */){ 
   .contact-section form .input-divider{
     display: flex;
     gap: 0.8rem
